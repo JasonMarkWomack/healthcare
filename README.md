@@ -1,6 +1,6 @@
 # Jobster
 
-Project in Action - [Jobster](https://redux-toolkit-jobster.netlify.app/)
+Project in Action - [Jbster](https://redux-toolkit-jobster.netlify.app/)
 
 #### React Course
 
@@ -99,7 +99,7 @@ const Landing = () => {
   return (
     <main>
       <nav>
-        <img src={logo} alt='jobster logo' className='logo' />
+        <img src={logo} alt='ealthster logo' className='logo' />
       </nav>
       <div className='container page'>
         {/* info */}
@@ -1232,7 +1232,7 @@ const links = [
   },
   {
     id: 3,
-    text: 'add job',
+    text: 'add data',
     path: 'add-job',
     icon: <FaWpforms />,
   },
@@ -2137,14 +2137,14 @@ const JobsContainer = () => {
   if (jobs.length === 0) {
     return (
       <Wrapper>
-        <h2>No jobs to display...</h2>
+        <h2>No health data to display...</h2>
       </Wrapper>
     );
   }
 
   return (
     <Wrapper>
-      <h5>jobs info</h5>
+      <h5>health info</h5>
       <div className='jobs'>
         {jobs.map((job) => {
           return <Job key={job._id} {...job} />;
@@ -3645,3 +3645,4 @@ const SearchContainer = () => {
 };
 export default SearchContainer;
 ```
+# healthcare

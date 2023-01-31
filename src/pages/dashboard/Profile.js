@@ -65,7 +65,11 @@ const Profile = () => {
             {isLoading ? 'Please Wait...' : 'save changes'}
           </button>
         </div>
+        <img
+        src={require('./thebody.png')}
+      />
       </form>
+      
     </Wrapper>
   );
 };

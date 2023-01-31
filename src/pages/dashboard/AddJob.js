@@ -63,7 +63,7 @@ const AddJob = () => {
   return (
     <Wrapper>
       <form className='form'>
-        <h3>{isEditing ? 'edit job' : 'add job'}</h3>
+        <h3>{isEditing ? 'edit data' : 'add data'}</h3>
         <div className='form-center'>
           {/* position */}
           <FormRow
@@ -83,7 +83,7 @@ const AddJob = () => {
           <FormRow
             type='text'
             name='jobLocation'
-            labelText='job location'
+            labelText='hospital location'
             value={jobLocation}
             handleChange={handleJobInput}
           />
@@ -97,7 +97,7 @@ const AddJob = () => {
           {/* job type*/}
           <FormRowSelect
             name='jobType'
-            labelText='job type'
+            labelText='health type'
             value={jobType}
             handleChange={handleJobInput}
             list={jobTypeOptions}

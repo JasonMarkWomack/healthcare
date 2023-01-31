@@ -90,7 +90,7 @@ function Register() {
             )
           }
         >
-          {isLoading ? 'loading...' : 'demo app'}
+          {isLoading ? 'loading...' : 'Your Health Matters'}
         </button>
         <p>
           {values.isMember ? 'Not a member yet?' : 'Already a member?'}
