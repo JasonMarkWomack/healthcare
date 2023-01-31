@@ -1,4 +1,3 @@
-# Jobster
 
 Project in Action - [Jbster](https://redux-toolkit-jobster.netlify.app/)
 
